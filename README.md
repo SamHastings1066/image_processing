@@ -36,6 +36,6 @@ The `jpg` files will be stored in subdirectories within the `input_jps` director
 
 ### 2. Convert jpgs to vector embeddings
 
-Simply open the `create_embeddings.ipynb` notebook and run all the cells. There are more details on how to customize this process within the notebook, so please see the notebook for further info.
+Simply open the `create_embeddings.ipynb` notebook and run all the cells. There are more details on how the embeddings are generated and how to customize the embedding process within the notebook, so please see the notebook for further info, but the main model being used is from Google's mediapipe suite.
 
 `.csv` output files are automatically output to `./output/fitness_poses_csv_out` and this is the folder that should be imported into the webapp for the downstream KNN model.
